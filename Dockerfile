@@ -12,4 +12,4 @@ RUN pip install -r requirements.txt
 COPY . .
 
 # 5. Uygulamayı başlat
-CMD [&quot;python&quot;, &quot;web_service.py&quot;]
+CMD ["python", "web_service.py"]
